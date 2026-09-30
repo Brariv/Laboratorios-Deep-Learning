@@ -1,0 +1,9 @@
+# torch y torchvision con CUDA se instalan desde https://download.pytorch.org/whl/cu130
+torchvision
+torchinfo
+scikit-learn
+pandas
+matplotlib
+jupyter
+nbconvert
+ipykernel
