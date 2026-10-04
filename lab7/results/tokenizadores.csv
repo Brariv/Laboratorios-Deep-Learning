@@ -1,0 +1,13 @@
+oracion,propio,nltk,iguales,solo_propio,solo_nltk
+"I don't think it's ready, isn't it?","i | do | n't | think | it | 's | ready | , | is | n't | it | ?","i | do | n't | think | it | 's | ready | , | is | n't | it | ?",True,,
+The U.S. economy grew 3.5% in 2011.,the | u.s. | economy | grew | 3.5 | % | in | 2011 | .,the | u.s. | economy | grew | 3.5 | % | in | 2011 | .,True,,
+"She's a well-known, state-of-the-art researcher.","she | 's | a | well-known | , | state-of-the-art | researcher | .","she | 's | a | well-known | , | state-of-the-art | researcher | .",True,,
+"Dr. Smith paid $1,000.50 for the e-mail service.","dr. | smith | paid | $ | 1,000.50 | for | the | e-mail | service | .","dr. | smith | paid | $ | 1,000.50 | for | the | e-mail | service | .",True,,
+"They'll arrive at 5 p.m. on Jan. 3rd, won't they?","they | 'll | arrive | at | 5 | p.m. | on | jan. | 3rd | , | wo | n't | they | ?","they | 'll | arrive | at | 5 | p.m. | on | jan. | 3rd | , | wo | n't | they | ?",True,,
+"The company's CEO said: ""We can't wait.""","the | company | 's | ceo | said | : | "" | we | ca | n't | wait | . | """,the | company | 's | ceo | said | : | `` | we | ca | n't | wait | . | '',False,"""",'' ``
+Rock 'n' roll was born in the 1950s.,rock | ' | n | ' | roll | was | born | in | the | 1950s | .,rock | 'n | ' | roll | was | born | in | the | 1950s | .,False,n,'n
+Visit https://www.example.com or write to info@example.com today.,visit | https | : | / | / | www | . | example | . | com | or | write | to | info | @ | example | . | com | today | .,visit | https | : | //www.example.com | or | write | to | info | @ | example.com | today | .,False,/ com example www,//www.example.com example.com
+O'Neill scored in the 2-1 win against the U.K. team.,o'neill | scored | in | the | 2-1 | win | against | the | u.k. | team | .,o'neill | scored | in | the | 2-1 | win | against | the | u.k. | team | .,True,,
+"I'd've gone if you'd asked, y'all know that.","i | 'd | 've | gone | if | you | 'd | asked | , | y'all | know | that | .","i'd | 've | gone | if | you | 'd | asked | , | y'all | know | that | .",False,i,i'd
+Mr. and Mrs. Brown live at 221B Baker St. in London.,mr. | and | mrs. | brown | live | at | 221b | baker | st. | in | london | .,mr. | and | mrs. | brown | live | at | 221b | baker | st. | in | london | .,True,,
+The temperature dropped to -5°C overnight (a record low).,the | temperature | dropped | to | - | 5 | ° | c | overnight | ( | a | record | low | ) | .,the | temperature | dropped | to | -5°c | overnight | ( | a | record | low | ) | .,False,- 5 c °,-5°c

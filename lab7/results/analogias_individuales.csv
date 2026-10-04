@@ -1,0 +1,52 @@
+modelo,tipo,analogia,esperada,top5,acierta,rango_correcta,cos_correcta
+SGNS,género,man:king :: woman:?,queen,"queen 0.70, consort 0.65, monarch 0.64, princess 0.63, throne 0.60",True,1,0.7014768719673157
+SGNS,género,man:father :: woman:?,mother,"husband 0.75, mother 0.74, daughter 0.73, wife 0.71, widowed 0.70",False,2,0.7364230155944824
+SGNS,género,boy:brother :: girl:?,sister,"cousin 0.67, son 0.67, husband 0.65, wife 0.64, daughter 0.64",False,7,0.6167712211608887
+SGNS,país-capital,france:paris :: italy:?,rome,"berlin 0.66, milan 0.66, vienna 0.65, venice 0.64, brussels 0.60",False,6,0.5998061895370483
+SGNS,país-capital,japan:tokyo :: germany:?,berlin,"berlin 0.79, munich 0.76, frankfurt 0.70, stockholm 0.67, vienna 0.67",True,1,0.7909383773803711
+SGNS,país-capital,spain:madrid :: russia:?,moscow,"lenin 0.61, moscow 0.60, lithuania 0.59, mikhail 0.58, vladimir 0.57",False,2,0.6008777618408203
+SGNS,país-gentilicio,france:french :: germany:?,german,"german 0.87, russian 0.78, dutch 0.73, austrian 0.71, italian 0.68",True,1,0.8723105192184448
+SGNS,país-gentilicio,china:chinese :: japan:?,japanese,"japanese 0.85, korean 0.63, indonesian 0.59, taiwanese 0.59, yokohama 0.57",True,1,0.8543845415115356
+SGNS,país-gentilicio,mexico:mexican :: canada:?,canadian,"canadian 0.79, canadians 0.64, british 0.57, american 0.56, belgian 0.55",True,1,0.7908289432525635
+SGNS,comparativo,good:better :: bad:?,worse,"worse 0.68, stronger 0.55, bigger 0.54, fared 0.53, stupid 0.50",True,1,0.6765375137329102
+SGNS,comparativo,big:bigger :: small:?,smaller,"smaller 0.62, larger 0.62, large 0.56, easier 0.48, relatively 0.46",True,1,0.6202044486999512
+SGNS,superlativo,fast:fastest :: strong:?,strongest,"strongest 0.54, highest 0.49, ranking 0.49, overall 0.47, quickest 0.46",True,1,0.5350514650344849
+SGNS,tiempo verbal,walk:walked :: run:?,ran,"ran 0.65, drove 0.57, running 0.56, threw 0.56, headed 0.53",True,1,0.6479682922363281
+SGNS,tiempo verbal,go:went :: see:?,saw,"saw 0.66, came 0.60, put 0.53, took 0.51, entered 0.50",True,1,0.66347336769104
+SGNS,tiempo verbal,play:playing :: sing:?,singing,"singing 0.77, sang 0.68, sings 0.62, harmonica 0.61, dancing 0.60",True,1,0.7664165496826172
+SGNS,plural,car:cars :: child:?,children,"children 0.66, daughters 0.60, infant 0.57, siblings 0.56, mother 0.55",True,1,0.6606485843658447
+SGNS,plural,city:cities :: mouse:?,mice,"lemurs 0.60, primates 0.59, ring-tailed 0.57, geoffroy 0.56, rodents 0.55",False,17,0.5066361427307129
+gensim,género,man:king :: woman:?,queen,"consort 0.71, queen 0.71, aquitaine 0.66, regent 0.65, coronation 0.65",False,2,0.7087076306343079
+gensim,género,man:father :: woman:?,mother,"mother 0.78, daughter 0.77, husband 0.75, grandparents 0.74, grandmother 0.73",True,1,0.7813695073127747
+gensim,género,boy:brother :: girl:?,sister,"son 0.72, daughter 0.71, cousin 0.69, widowed 0.69, husband 0.69",False,53,0.5687304735183716
+gensim,país-capital,france:paris :: italy:?,rome,"vienna 0.78, berlin 0.75, brussels 0.75, prague 0.73, milan 0.71",False,52,0.6046629548072815
+gensim,país-capital,japan:tokyo :: germany:?,berlin,"berlin 0.79, munich 0.73, düsseldorf 0.71, brussels 0.71, paris 0.70",True,1,0.788970947265625
+gensim,país-capital,spain:madrid :: russia:?,moscow,"moscow 0.64, juventus 0.61, atlético 0.61, capablanca 0.61, munich 0.61",True,1,0.6420825123786926
+gensim,país-gentilicio,france:french :: germany:?,german,"german 0.90, russian 0.79, austrian 0.78, dutch 0.77, italian 0.75",True,1,0.8989274501800537
+gensim,país-gentilicio,china:chinese :: japan:?,japanese,"japanese 0.84, taiwanese 0.67, indonesian 0.64, korean 0.64, english-language 0.60",True,1,0.8370771408081055
+gensim,país-gentilicio,mexico:mexican :: canada:?,canadian,"canadian 0.81, australian 0.61, canadians 0.61, british 0.60, american 0.59",True,1,0.8114815354347229
+gensim,comparativo,good:better :: bad:?,worse,"worse 0.68, bigger 0.67, more 0.59, tougher 0.57, than 0.57",True,1,0.6849795579910278
+gensim,comparativo,big:bigger :: small:?,smaller,"larger 0.69, smaller 0.64, greater 0.54, large 0.53, streamlined 0.51",False,2,0.6420387625694275
+gensim,superlativo,fast:fastest :: strong:?,strongest,"strongest 0.60, highest 0.59, ranking 0.55, overtook 0.55, costliest 0.54",True,1,0.6037050485610962
+gensim,tiempo verbal,walk:walked :: run:?,ran,"ran 0.66, running 0.62, threw 0.61, pulled 0.58, stood 0.56",True,1,0.6563081741333008
+gensim,tiempo verbal,go:went :: see:?,saw,"saw 0.75, seemed 0.61, came 0.60, did 0.56, looked 0.56",True,1,0.7529078722000122
+gensim,tiempo verbal,play:playing :: sing:?,singing,"singing 0.82, sang 0.72, ukulele 0.68, onstage 0.67, whistling 0.67",True,1,0.8176056146621704
+gensim,plural,car:cars :: child:?,children,"children 0.71, siblings 0.64, grandparents 0.63, marriages 0.63, mothers 0.62",True,1,0.7072055339813232
+gensim,plural,city:cities :: mouse:?,mice,"lemurs 0.70, ring-tailed 0.69, primates 0.69, rodents 0.67, ruffed 0.66",False,46,0.5949201583862305
+GloVe,género,man:king :: woman:?,queen,"queen 0.77, monarch 0.68, throne 0.68, daughter 0.66, princess 0.65",True,1,0.7698540687561035
+GloVe,género,man:father :: woman:?,mother,"mother 0.90, daughter 0.87, wife 0.85, husband 0.83, grandmother 0.81",True,1,0.9024619460105896
+GloVe,género,boy:brother :: girl:?,sister,"daughter 0.89, wife 0.88, father 0.88, cousin 0.87, son 0.86",False,6,0.8404760360717773
+GloVe,país-capital,france:paris :: italy:?,rome,"rome 0.82, milan 0.74, naples 0.71, venice 0.70, turin 0.70",True,1,0.8189547061920166
+GloVe,país-capital,japan:tokyo :: germany:?,berlin,"frankfurt 0.84, berlin 0.82, munich 0.73, paris 0.71, vienna 0.69",False,2,0.8190845251083374
+GloVe,país-capital,spain:madrid :: russia:?,moscow,"moscow 0.86, kiev 0.74, russian 0.66, ukraine 0.65, putin 0.64",True,1,0.8552453517913818
+GloVe,país-gentilicio,france:french :: germany:?,german,"german 0.96, austrian 0.78, swiss 0.77, swedish 0.73, polish 0.73",True,1,0.9596728086471558
+GloVe,país-gentilicio,china:chinese :: japan:?,japanese,"japanese 0.95, korean 0.75, taiwanese 0.69, tokyo 0.66, asian 0.63",True,1,0.9522514343261719
+GloVe,país-gentilicio,mexico:mexican :: canada:?,canadian,"canadian 0.89, british 0.71, american 0.66, australian 0.64, belgian 0.62",True,1,0.8907417058944702
+GloVe,comparativo,good:better :: bad:?,worse,"worse 0.84, too 0.75, even 0.73, getting 0.73, because 0.73",True,1,0.8442932367324829
+GloVe,comparativo,big:bigger :: small:?,smaller,"larger 0.89, smaller 0.87, large 0.79, tiny 0.71, size 0.66",False,2,0.8694050312042236
+GloVe,superlativo,fast:fastest :: strong:?,strongest,"strongest 0.70, overall 0.62, fourth 0.61, third 0.59, fifth 0.57",True,1,0.7035326957702637
+GloVe,tiempo verbal,walk:walked :: run:?,ran,"went 0.71, drove 0.71, ran 0.71, came 0.69, last 0.66",False,3,0.7098871469497681
+GloVe,tiempo verbal,go:went :: see:?,saw,"saw 0.86, came 0.81, when 0.79, later 0.79, turned 0.78",True,1,0.8555887341499329
+GloVe,tiempo verbal,play:playing :: sing:?,singing,"singing 0.79, sang 0.76, sings 0.73, songs 0.61, tunes 0.60",True,1,0.7912662625312805
+GloVe,plural,car:cars :: child:?,children,"children 0.82, mothers 0.72, parents 0.69, babies 0.68, sex 0.67",True,1,0.8238247632980347
+GloVe,plural,city:cities :: mouse:?,mice,"mice 0.67, viruses 0.61, genes 0.58, rodents 0.56, rabbit 0.56",True,1,0.6663069725036621

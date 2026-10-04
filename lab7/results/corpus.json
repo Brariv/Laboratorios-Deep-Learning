@@ -1,0 +1,15 @@
+{
+  "lineas": 1801350,
+  "lineas_vacias": 636321,
+  "tokens_espacio_total": 101425671,
+  "articulos": 29444,
+  "parrafos": 859955,
+  "tokens_palabra": 84601958,
+  "articulos_subset": 8926,
+  "secciones": 275630,
+  "vocabulario_total": 720846,
+  "tokens_subset": 25001188,
+  "parrafos_subset": 255605,
+  "lineas_validation": 3760,
+  "lineas_test": 4358
+}

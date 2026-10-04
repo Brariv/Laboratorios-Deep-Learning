@@ -1,0 +1,11 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4070 Ti",
+  "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "nucleos_cpu": 16,
+  "sistema": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "torch": "2.14.0+cu130",
+  "gensim": "4.4.0",
+  "smoke": false,
+  "t_gensim_s": 39.0637481212616
+}

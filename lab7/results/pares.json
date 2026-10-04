@@ -1,0 +1,9 @@
+{
+  "ventana": 5,
+  "t": 0.0001,
+  "tokens": 24605932,
+  "tokens_tras_submuestreo": 14778919,
+  "pares_ventana_fija_sin_submuestreo": 238531624,
+  "pares_ventana_dinamica_sin_submuestreo": 144107042.4,
+  "pares_ventana_dinamica_con_submuestreo": 85179943
+}

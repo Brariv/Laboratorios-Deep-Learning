@@ -1,0 +1,16 @@
+,SGNS,gensim,GloVe
+Tokens del corpus de entrenamiento,"24,605,932","24,605,932",6 000 000 000
+Tamaño del vocabulario,"99,356","99,356","400,000"
+Dimensión,100,100,100
+Tiempo de entrenamiento,67 s en NVIDIA GeForce RTX 4070 Ti,39 s en CPU con 16 hilos,"6 000 M tokens; X en 85 min con 1 hilo y 14 min por iteración (300 d) con 32 núcleos Xeon E5-2658, según Pennington et al. (2014)"
+"Analogías semánticas, 3CosAdd",0.4149,0.2885,0.6068
+"Analogías sintácticas, 3CosAdd",0.4564,0.4532,0.6802
+"Analogías total, 3CosAdd",0.4443,0.4049,0.6587
+"Analogías semánticas, 3CosMul",0.3724,0.28,0.5819
+"Analogías sintácticas, 3CosMul",0.4112,0.4259,0.6667
+"Analogías total, 3CosMul",0.3999,0.3832,0.6419
+Spearman WordSim-353,0.6891,0.6657,0.5356
+Spearman SimLex-999,0.282,0.3104,0.2988
+Coseno promedio entre vectores diferencia,0.3409,0.3418,0.4942
+Tokens de AG News fuera del vocabulario (%),4.02,4.02,1.1
+F1 macro de test en AG News,0.9124,0.9115,0.9143
