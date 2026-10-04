@@ -1,0 +1,11 @@
+# torch con CUDA ya está en el entorno (se instala desde https://download.pytorch.org/whl/cu130)
+datasets
+gensim>=4.4
+nltk
+scikit-learn
+scipy
+pandas
+matplotlib
+jupyter
+nbconvert
+ipykernel
