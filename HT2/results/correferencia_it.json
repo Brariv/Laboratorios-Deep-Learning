@@ -1,0 +1,149 @@
+{
+ "BERT": {
+  "tokens": [
+   "[CLS]",
+   "the",
+   "animal",
+   "didn",
+   "'",
+   "t",
+   "cross",
+   "the",
+   "street",
+   "because",
+   "it",
+   "was",
+   "too",
+   "tired",
+   ".",
+   "[SEP]"
+  ],
+  "cabezas_que_cumplen": 22,
+  "total_cabezas": 144,
+  "top": [
+   {
+    "capa": 7,
+    "cabeza": 11,
+    "tired_animal": 0.28426992893218994,
+    "tired_street": 0.06708613783121109,
+    "wide_animal": 0.011940084397792816,
+    "wide_street": 0.5901733040809631,
+    "margen": 0.21718379855155945
+   },
+   {
+    "capa": 9,
+    "cabeza": 5,
+    "tired_animal": 0.24165911972522736,
+    "tired_street": 0.014475852251052856,
+    "wide_animal": 0.04621730372309685,
+    "wide_street": 0.20908258855342865,
+    "margen": 0.1628652811050415
+   },
+   {
+    "capa": 9,
+    "cabeza": 8,
+    "tired_animal": 0.20520716905593872,
+    "tired_street": 0.05025274679064751,
+    "wide_animal": 0.06111377477645874,
+    "wide_street": 0.19436699151992798,
+    "margen": 0.13325321674346924
+   },
+   {
+    "capa": 5,
+    "cabeza": 11,
+    "tired_animal": 0.33298900723457336,
+    "tired_street": 0.09522297233343124,
+    "wide_animal": 0.16743887960910797,
+    "wide_street": 0.288258820772171,
+    "margen": 0.12081994116306305
+   },
+   {
+    "capa": 7,
+    "cabeza": 5,
+    "tired_animal": 0.2385682910680771,
+    "tired_street": 0.13388340175151825,
+    "wide_animal": 0.08145149797201157,
+    "wide_street": 0.25095683336257935,
+    "margen": 0.10468488931655884
+   }
+  ],
+  "promedio_capas": {
+   "tired_animal": 0.09133946895599365,
+   "tired_street": 0.023091137409210205,
+   "wide_animal": 0.05770382657647133,
+   "wide_street": 0.04247725382447243
+  }
+ },
+ "GPT-2": {
+  "tokens": [
+   "The",
+   "animal",
+   "didn",
+   "'t",
+   "cross",
+   "the",
+   "street",
+   "because",
+   "it",
+   "was",
+   "too",
+   "tired",
+   "."
+  ],
+  "cabezas_que_cumplen": 0,
+  "total_cabezas": 144,
+  "top": [
+   {
+    "capa": 5,
+    "cabeza": 12,
+    "tired_animal": 3.4797498216221356e-11,
+    "tired_street": 2.7608285102509456e-10,
+    "wide_animal": 3.4797498216221356e-11,
+    "wide_street": 2.7608285102509456e-10,
+    "margen": -2.412853528088732e-10
+   },
+   {
+    "capa": 11,
+    "cabeza": 3,
+    "tired_animal": 0.0038106185384094715,
+    "tired_street": 0.003743284847587347,
+    "wide_animal": 0.0038106185384094715,
+    "wide_street": 0.003743284847587347,
+    "margen": -6.733369082212448e-05
+   },
+   {
+    "capa": 6,
+    "cabeza": 2,
+    "tired_animal": 0.00014934531645849347,
+    "tired_street": 1.264357069885591e-05,
+    "wide_animal": 0.00014934531645849347,
+    "wide_street": 1.264357069885591e-05,
+    "margen": -0.00013670173939317465
+   },
+   {
+    "capa": 8,
+    "cabeza": 3,
+    "tired_animal": 0.0012713909382000566,
+    "tired_street": 0.0014113322831690311,
+    "wide_animal": 0.0012713909382000566,
+    "wide_street": 0.0014113322831690311,
+    "margen": -0.0001399413449689746
+   },
+   {
+    "capa": 11,
+    "cabeza": 2,
+    "tired_animal": 0.004059175495058298,
+    "tired_street": 0.004389599431306124,
+    "wide_animal": 0.004059175495058298,
+    "wide_street": 0.004389599431306124,
+    "margen": -0.0003304239362478256
+   }
+  ],
+  "promedio_capas": {
+   "tired_animal": 0.04746382683515549,
+   "tired_street": 0.03579243645071983,
+   "wide_animal": 0.04746382683515549,
+   "wide_street": 0.03579243645071983
+  }
+ }
+}

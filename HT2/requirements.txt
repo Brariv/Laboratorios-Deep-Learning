@@ -1,0 +1,10 @@
+torch
+transformers>=4.50
+numpy
+scipy
+pandas
+matplotlib
+jupyter
+nbconvert
+ipykernel
+# opcional, para la visualización interactiva: bertviz

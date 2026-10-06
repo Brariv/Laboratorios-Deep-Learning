@@ -1,0 +1,35 @@
+{
+ "perdida_base": 3.3434526920318604,
+ "cabezas": 144,
+ "cabezas_aumento_menor_1pct": 126,
+ "cabezas_que_mejoran": 52,
+ "max_aumento": 1.7515366077423096,
+ "max_aumento_relativo": 0.5238706119325641,
+ "top5": [
+  {
+   "capa": 1,
+   "cabeza": 1,
+   "aumento": 1.7515366077423096
+  },
+  {
+   "capa": 1,
+   "cabeza": 11,
+   "aumento": 1.1746337413787842
+  },
+  {
+   "capa": 6,
+   "cabeza": 2,
+   "aumento": 0.24971795082092285
+  },
+  {
+   "capa": 1,
+   "cabeza": 6,
+   "aumento": 0.20535898208618164
+  },
+  {
+   "capa": 4,
+   "cabeza": 1,
+   "aumento": 0.1028904914855957
+  }
+ ]
+}

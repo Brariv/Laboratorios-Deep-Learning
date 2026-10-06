@@ -1,0 +1,7 @@
+frase,prediccion,spearman_ultima_capa,spearman_todas_capas,spearman_sin_primer_token,mas_atendido,mas_saliente,atencion_al_primer_token
+The animal didn't cross the street because it was too,scared,-0.06363636363636364,0.07272727272727274,-0.04242424242424241,The,too,0.5543323755264282
+The capital of France is,the,-0.8999999999999998,-0.39999999999999997,0.19999999999999998,The,is,0.6502164006233215
+"She opened the door, turned on the light, and",walked,0.30000000000000004,-0.03636363636363637,-0.1515151515151515,She,and,0.5237284302711487
+"After the game, the players thanked the",players,-0.3333333333333334,-0.023809523809523815,-0.14285714285714288,After,game,0.5643065571784973
+The stock market fell sharply after the bank,'s,-0.2380952380952381,-0.023809523809523815,-0.10714285714285716,The,bank,0.6413272023200989
+"If it rains tomorrow, we will stay at",the,0.41666666666666663,-0.03333333333333333,0.023809523809523815,If,rains,0.5713170170783997

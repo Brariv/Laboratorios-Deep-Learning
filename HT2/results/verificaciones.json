@@ -1,0 +1,52 @@
+{
+ "sdpa_sin_mascara": 3.5762786865234375e-07,
+ "sdpa_causal": 3.5762786865234375e-07,
+ "sdpa_mascara_booleana": 3.5762786865234375e-07,
+ "pesos_causales_arriba_de_la_diagonal": 0.0,
+ "mha_salida": 1.1920928955078125e-07,
+ "mha_pesos_por_cabeza": 8.940696716308594e-08,
+ "mha_pesos_promediados": 2.9802322387695312e-08,
+ "mha_peso_a_padding": 0.0,
+ "parametros_por_cabezas": {
+  "1": 1050624,
+  "2": 1050624,
+  "4": 1050624,
+  "8": 1050624,
+  "16": 1050624
+ },
+ "parametros_formula_4d2_4d": 1050624,
+ "pe_producto_desfase_1_desv_est": 9.546474470410234e-15,
+ "pe_producto_desfase_5_desv_est": 6.4027746737274416e-15,
+ "pe_producto_desfase_20_desv_est": 8.094801292007203e-15,
+ "pe_rotacion_error": 2.248201624865942e-14,
+ "permutacion_sin_pe": 5.960464477539063e-08,
+ "permutacion_con_pe": 0.07915936410427094,
+ "mascara_generate_square_subsequent_mask": [
+  [
+   0.0,
+   -Infinity,
+   -Infinity,
+   -Infinity
+  ],
+  [
+   0.0,
+   0.0,
+   -Infinity,
+   -Infinity
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   -Infinity
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "post_ln_ultima_sobre_primera": 2.844504658360301,
+ "pre_ln_ultima_sobre_primera": 0.29384126700997604
+}

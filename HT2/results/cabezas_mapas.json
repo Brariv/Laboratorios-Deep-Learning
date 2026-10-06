@@ -1,0 +1,54 @@
+{
+ "BERT": [
+  {
+   "patron": "token anterior",
+   "capa": 4,
+   "cabeza": 6,
+   "puntaje": 0.6510202288627625
+  },
+  {
+   "patron": "token siguiente",
+   "capa": 3,
+   "cabeza": 10,
+   "puntaje": 0.9323508739471436
+  },
+  {
+   "patron": "[SEP]",
+   "capa": 6,
+   "cabeza": 2,
+   "puntaje": 0.8523698449134827
+  },
+  {
+   "patron": "puntuaci\u00f3n",
+   "capa": 11,
+   "cabeza": 2,
+   "puntaje": 0.7918013334274292
+  }
+ ],
+ "GPT-2": [
+  {
+   "patron": "token anterior",
+   "capa": 5,
+   "cabeza": 12,
+   "puntaje": 0.999340295791626
+  },
+  {
+   "patron": "primer token",
+   "capa": 8,
+   "cabeza": 3,
+   "puntaje": 0.9908493757247925
+  },
+  {
+   "patron": "misma palabra",
+   "capa": 1,
+   "cabeza": 2,
+   "puntaje": 0.9231173396110535
+  },
+  {
+   "patron": "puntuaci\u00f3n",
+   "capa": 3,
+   "cabeza": 6,
+   "puntaje": 0.1646270602941513
+  }
+ ]
+}
